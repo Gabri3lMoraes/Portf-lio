@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    color: #ffff;
+    font-family: 'Poppins';
+    list-style: none;
+}
+
+
+body{
+    background-color: #121212;
+    padding-bottom: 500px;
+    
+    
+}
+
+
+
+
+#form-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#form-container h1{
+    color: #ffff;
+    margin-right: 5rem;
+    font-size: 40px;
+    margin-left: 1rem;
+
+}
+
+.nome{
+    color: aquamarine;
+}
+
+
+.cs{
+    color: #ffff;
+    margin: 2rem;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    background-color: #121212;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    text-decoration: none;
+}
+
+.cssu{
+    text-decoration: none;
+
+}
+
+
+.cs:hover{
+    border-bottom: 2px solid white;
+}
+
+.laguage{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.css{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    background-image: url(img/brasil.png);
+    background-color: transparent;
+    background-size: cover;
+    border-radius: none;
+    border: none;
+    outline: none;
+    
+}
+
+.csss{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    background-image: url(img/estados-unidos.png);
+    background-color: transparent;
+    background-size: cover;
+    border-radius: none;
+    border: none;
+    outline: none;
+    
+}
+
+
+#usercard{
+    border: 3px solid color white
+}        
+#gabriel{
+    width: 300px; height: 250px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+
+}
+
+p{
+    font-size: 24px;
+    border: 3px solid color white
+
+}
+
+.plat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 1rem;
+    position: absolute;top: 69%; left: 10%;transform: translate(-50%, -50%);
+}
+
+#img1{
+    font-size: 50px;
+}
+
+#img2{
+    font-size: 50px;
+}
+
+#img3{
+    font-size: 50px;
+}
+
+#img4{
+    font-size: 50px;
+}
+
+
+.buck{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+
+#projetos{
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+#proj{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.proje{
+    display: flex;
+    width: 1050px; height: 250px;
+    background-image: url(img/fundo-de-galaxia-em-aquarela_23-2149233509.png);
+    background-size: cover;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: start;
+    align-content: center;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1.5rem;
+}
+
+.projet{
+    display: flex;
+    width: 1050px; height: 250px;
+    background-color: cadetblue;
+    background-size: cover;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: start;
+    align-content: center;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.projets{
+    display: flex;
+    width: 1050px; height: 250px;
+    background-color: #fa7f72;
+    background-size: cover;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: start;
+    align-content: center;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1.5rem;
+}
+
+#proje{
+    display: flex;
+    width: 1050px; height: 250px;
+    background-image: url(img/fundo-de-galaxia-em-aquarela_23-2149233509.png);
+    background-size: cover;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: start;
+    align-content: center;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+
+.proje:hove{
+ width: 204px; height: 254px;   
+ border: 10px solid color aquamarine;
+}
+
+
+#projett{
+    width: 268px; height: 150px;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#primeiro{
+    color: #fff;
+    font-size: 15px;
+    width: 80%; height: 84%;
+    margin-right: 4rem;
+
+    
+
+}
+
+.sistem{
+    color: #000;
+    font-size: 25px;
+}
+
+#paragra{
+    font-size: 18px;
+    font-weight: 300;
+    width: 90%;
+    height: 100%;
+    
+}
+
+.acess{
+    border: 0;
+    background-image: url(img/fundo-de-galaxia-em-aquarela_23-2149233509.png);
+    background-size: cover;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    
+}
+
+.acesse{
+    border: 0;
+    background-color: #fff;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+
+    
+}
+
+#htt{
+    position: absolute; top: 221%;left: 80%; transform: translate(-50%, -50%); 
+    font-size: 30px; 
+}
+
+#kss{
+    position: absolute; top: 221%;left: 82%; transform: translate(-50%, -50%); 
+    font-size: 30px; 
+}
+
+#js{
+    position: absolute; top: 221%;left: 84%; transform: translate(-50%, -50%); 
+    font-size: 30px; 
+}
+
+#httt{
+    position: absolute; top: 179%;left: 80%; transform: translate(-50%, -50%); 
+    font-size: 30px; 
+}
+
+#ksss{
+    position: absolute; top: 179%;left: 82%; transform: translate(-50%, -50%); 
+    font-size: 30px; 
+}
+
+#jss{
+    position: absolute; top: 179%;left: 84%; transform: translate(-50%, -50%); 
+    font-size: 30px; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.te{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
